@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reverse fibonacci series</title>
+</head>
+	
+	<body>
+  		
+  		<h1>reverse fibonacci series</h1>
+
+   	</body>
+	
+	<script type="text/javascript">
+		var i,a,b,result;
+
+     	a=56;
+		b=55;
+		result=b;
+
+			for(i=55;i>0;i--)
+			 {
+				document.write(result+"<br>");
+				result= a+b;
+				a=b;
+				b=result;
+			 }
+
+	</script>
+
+
+</html>
